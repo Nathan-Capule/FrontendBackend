@@ -1,0 +1,24 @@
+/*-----------------------------------*/
+/*--- IMPORT STYLES FOR FASTPAGES ---*/
+@import "minima/fastpages-styles";   
+@import "minima/dark-mode";   
+
+
+/*-----------------------------------*/
+/*----- ADD YOUR STYLES BELOW -------*/
+
+// If you want to turn off dark background for syntax highlighting, comment or delete the below line.
+@import "minima/fastpages-dracula-highlight"; 
+
+/* "row style" is flexible size and aligns pictures in center */
+.row {
+    align-items: center;
+    display: flex;
+  }
+  
+  /* "column style" is one-third of the width with padding */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
